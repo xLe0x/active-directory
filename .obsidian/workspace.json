@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "17eae4fa3945fff0",
+    "type": "split",
+    "children": [
+      {
+        "id": "a535389c1de19225",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d9664a9793ceafc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "attacks/SMB Relay (Abuse NTLM auth).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SMB Relay (Abuse NTLM auth)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a36a5b01d8e38420",
+    "type": "split",
+    "children": [
+      {
+        "id": "523cbcb503d7e4ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed2459e955531620",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6e996a28651f8766",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f6dcb39945f9ab8b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 404.5
+  },
+  "right": {
+    "id": "1745326754833dd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce18f1fda9360560",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3067f59c003112c4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/htb/intro/Why Active Directory?.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Why Active Directory?"
+            }
+          },
+          {
+            "id": "3dfae7e94369806d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/htb/intro/Why Active Directory?.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Why Active Directory?"
+            }
+          },
+          {
+            "id": "5f255febe6c0bfed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "010f676294354e67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/htb/intro/Why Active Directory?.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Why Active Directory?"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8d9664a9793ceafc",
+  "lastOpenFiles": [
+    "attacks/IPV6 Attacks.md",
+    "attacks/AS-REP Roasting (Abuse Pre-Auth).md",
+    "attacks/SMB Relay (Abuse NTLM auth).md",
+    "tinker.lab/bloodhound/20241215181446_users.json",
+    "tinker.lab/bloodhound/20241215181446_ous.json",
+    "tinker.lab/bloodhound/20241215181446_groups.json",
+    "tinker.lab/bloodhound/20241215181446_gpos.json",
+    "tinker.lab/bloodhound/20241215181446_domains.json",
+    "tinker.lab/bloodhound/20241215181446_containers.json",
+    "tinker.lab/bloodhound/20241215181446_computers.json",
+    "tinker.lab/bloodhound",
+    "tinker.lab/20241215181446_computers.json",
+    "tinker.lab/20241215181446_domains.json",
+    "attacks/Kerberoasting (TGS cracking).md",
+    "notes/thm/attacktivedirectory/6. Elevating Privileges within the Domain.md",
+    "notes/thm/winadbasics/1. Windows Domains.md",
+    "notes/thm/attacktivedirectory/5. Back to the Basics.md",
+    "notes/thm/attacktivedirectory/4. Abusing Kerberos.md",
+    "notes/thm/attacktivedirectory/3. Enumerating Users via Kerberos.md",
+    "notes/thm/attacktivedirectory/2. Welcome to Attacktive Directory.md",
+    "attacks/LLMNR Poisoning.md",
+    "attacks/Pass The Password - Pass The Hash.md",
+    "attacks/Password Spraying.md",
+    "vulnerable-ad/report/README.md",
+    "imgs/Pasted image 20241116211637.png",
+    "imgs/Pasted image 20241116211606.png",
+    "imgs/Pasted image 20241116211514.png",
+    "imgs/Pasted image 20241116204730.png",
+    "imgs/Pasted image 20241116204612.png",
+    "imgs/Pasted image 20241116204526.png",
+    "imgs/Pasted image 20241116204515.png",
+    "imgs/Pasted image 20241116204458.png",
+    "imgs/Pasted image 20241116204422.png",
+    "imgs/Pasted image 20241116204411.png",
+    "notes/thm/winadbasics/7. Trees, Forests and Trusts.md",
+    "notes/thm/winadbasics/6. Authentication Methods.md",
+    "notes/thm/winadbasics/5. Group Policies.md",
+    "notes/thm/winadbasics/4. Managing Computers in AD.md",
+    "notes/thm/winadbasics/3. Managing Users in AD.md",
+    "notes/thm/winadbasics/2. Active Directory.md",
+    "notes/thm/attacktivedirectory/1. setup.md",
+    "notes/htb/intro/Why Active Directory?.md",
+    "notes/arabic-course/session_4.md"
+  ]
+}

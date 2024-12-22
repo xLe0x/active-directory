@@ -1,0 +1,6 @@
+![Pasted image 20241116191205.png](Pasted%20image%2020241116191205.png)
+![Pasted image 20241116191252.png](Pasted%20image%2020241116191252.png)
+![Pasted image 20241116191342.png](Pasted%20image%2020241116191342.png)
+![Pasted image 20241116191356.png](Pasted%20image%2020241116191356.png)
+![Pasted image 20241116191414.png](Pasted%20image%2020241116191414.png)
+![Pasted image 20241116191422.png](Pasted%20image%2020241116191422.png)

@@ -1,0 +1,35 @@
+2024/11/20 13:38:07 >  Using KDC(s):
+2024/11/20 13:38:07 >  	123.123.123.128:88
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 natalie.evy@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 aurora.bonnie@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 donia.leila@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 clara.bethanne@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 jessalyn.nissa@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 kim.gabriell@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 Administrator@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 kippar.audie@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 sharron.dredi@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 carley.marla@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 hildegaard.karel@vuln.org
+2024/11/20 13:38:07 >  [!] Guest@vuln.org - USER LOCKED OUT and safe mode on! Aborting...
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 merrie.bernetta@vuln.org
+2024/11/20 13:38:07 >  [!] krbtgt@vuln.org - USER LOCKED OUT and safe mode on! Aborting...
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 lishe.allegra@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 jillian.elli@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 rickie.marjie@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 amalee.dionis@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 jannel.kinsley@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 hesther.etta@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 jane.karlyn@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 michaela.ora@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 oralie.audrie@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 ertha.joly@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 eachelle.neala@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 antonella.krishna@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 lesli.nicolina@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 rubia.imelda@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 elli.jacquette@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 clo.kermy@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 rafaela.lindsay@vuln.org
+2024/11/20 13:38:07 >  [+] VALID USERNAME:	 allx.mikaela@vuln.org
+2024/11/20 13:38:07 >  Done! Tested 32 usernames (30 valid) in 0.020 seconds

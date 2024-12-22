@@ -1,0 +1,6 @@
+Administrator
+Guest
+krbtgt
+domain-admin
+ammar.mohamed
+khaled.ahmed

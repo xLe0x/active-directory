@@ -1,0 +1,77 @@
+# Nmap 7.94SVN scan initiated Sun Dec 15 17:05:41 2024 as: /usr/lib/nmap/nmap --privileged -sCV -oN nmap/initial 192.168.115.130
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for 192.168.115.130
+Host is up (0.00067s latency).
+Not shown: 984 filtered tcp ports (no-response)
+PORT     STATE SERVICE           VERSION
+42/tcp   open  tcpwrapped
+53/tcp   open  domain            Simple DNS Plus
+80/tcp   open  http              Microsoft IIS httpd 10.0
+|_http-title: IIS Windows Server
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+88/tcp   open  kerberos-sec      Microsoft Windows Kerberos (server time: 2024-12-16 01:05:52Z)
+135/tcp  open  msrpc             Microsoft Windows RPC
+139/tcp  open  netbios-ssn       Microsoft Windows netbios-ssn
+389/tcp  open  ldap              Microsoft Windows Active Directory LDAP (Domain: tinker.lab0., Site: Default-First-Site-Name)
+443/tcp  open  ssl/http          Microsoft IIS httpd 10.0
+| ssl-cert: Subject: commonName=TinkerDC-01
+| Not valid before: 2024-12-15T00:18:27
+|_Not valid after:  2025-06-16T00:18:27
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows Server
+| http-methods: 
+|_  Potentially risky methods: TRACE
+| tls-alpn: 
+|_  http/1.1
+445/tcp  open  microsoft-ds      Windows Server 2022 Standard Evaluation 20348 microsoft-ds (workgroup: TINKER)
+464/tcp  open  kpasswd5?
+515/tcp  open  printer           Microsoft lpd
+593/tcp  open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  ldapssl?
+3268/tcp open  ldap              Microsoft Windows Active Directory LDAP (Domain: tinker.lab0., Site: Default-First-Site-Name)
+3269/tcp open  globalcatLDAPssl?
+3389/tcp open  ms-wbt-server     Microsoft Terminal Services
+|_ssl-date: 2024-12-16T01:06:40+00:00; +10h00m00s from scanner time.
+| ssl-cert: Subject: commonName=TinkerDC-01.tinker.lab
+| Not valid before: 2024-12-15T00:35:49
+|_Not valid after:  2025-06-16T00:35:49
+| rdp-ntlm-info: 
+|   Target_Name: TINKER
+|   NetBIOS_Domain_Name: TINKER
+|   NetBIOS_Computer_Name: TINKERDC-01
+|   DNS_Domain_Name: tinker.lab
+|   DNS_Computer_Name: TinkerDC-01.tinker.lab
+|   DNS_Tree_Name: tinker.lab
+|   Product_Version: 10.0.20348
+|_  System_Time: 2024-12-16T01:05:58+00:00
+MAC Address: 00:0C:29:84:54:13 (VMware)
+Service Info: Host: TINKERDC-01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: TINKERDC-01, NetBIOS user: <unknown>, NetBIOS MAC: 00:0c:29:84:54:13 (VMware)
+| smb-os-discovery: 
+|   OS: Windows Server 2022 Standard Evaluation 20348 (Windows Server 2022 Standard Evaluation 6.3)
+|   Computer name: TinkerDC-01
+|   NetBIOS computer name: TINKERDC-01\x00
+|   Domain name: tinker.lab
+|   Forest name: tinker.lab
+|   FQDN: TinkerDC-01.tinker.lab
+|_  System time: 2024-12-15T17:05:59-08:00
+|_clock-skew: mean: 11h35m59s, deviation: 3h34m40s, median: 9h59m59s
+| smb2-time: 
+|   date: 2024-12-16T01:05:59
+|_  start_date: N/A
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Dec 15 17:06:48 2024 -- 1 IP address (1 host up) scanned in 66.78 seconds
